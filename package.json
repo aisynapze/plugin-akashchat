@@ -1,13 +1,13 @@
 {
-  "name": "@elizaos/plugin-akashchat",
-  "version": "1.0.0-beta.32",
+  "name": "@aisynapze/plugin-akashchat",
+  "version": "1.0.0",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/elizaos-plugins/plugin-akashchat"
+    "url": "https://github.com/aisynapze/plugin-akashchat"
   },
   "exports": {
     "./package.json": "./package.json",
@@ -24,7 +24,7 @@
   "dependencies": {
     "@ai-sdk/openai": "^1.1.9",
     "@ai-sdk/ui-utils": "1.1.9",
-    "@elizaos/core": "^1.0.0-beta.32",
+    "@elizaos/core": "latest",
     "ai": "^4.1.25",
     "js-tiktoken": "^1.0.18",
     "tsup": "8.4.0"
